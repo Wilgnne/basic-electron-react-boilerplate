@@ -1,8 +1,11 @@
 {
-  "name": "basic-electron-react-boilerplate",
+  "name": "fit-electron-react-boilerplate",
   "version": "0.7.0",
   "description": "Minimal and modern react+electron+webpack boilerplate",
-  "author": "Phillip Barbiero",
+  "author": "Wilgnne Khawan",
+  "contributors": [
+    "Phillip Barbiero"
+  ],
   "homepage": "https://github.com/Wilgnne/basic-electron-react-boilerplate",
   "repository": {
     "type": "git",
