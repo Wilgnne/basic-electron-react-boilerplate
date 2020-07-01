@@ -17,18 +17,18 @@ Production builds babel-minify is used, and ES2015/ES6 transpilation is provided
 
 Special thanks to [pbarbiero](https://github.com/pbarbiero) and other contributors for providing such a simple and solid base for the construction of this boilerplate.
 
-### :dart: To get started:
+## :dart: To get started:
 * Run `yarn`
 
-##### :computer: Development
+### :computer: Development
 * Run `yarn dev` to start webpack-dev-server. Electron will launch automatically after compilation.
 
-##### :hammer: Production
+### :hammer: Production
 
-###### :tada: One Shot
+#### :tada: One Shot
 * Run `yarn build` to have webpack compile your application into `dist/bundle.js` and `dist/index.html`, and then an electron-packager run will be triggered for the current platform/arch, outputting to `builds/`
 
-###### :scroll: Manual
+## :scroll: Manual
 
 If you want to test the production build (In case you think Babili might be breaking something) after running `npm run build` you can then call `npm run prod`. This will cause electron to load off of the `dist/` build instead of looking for the webpack-dev-server instance. Electron will launch automatically after compilation.
 
