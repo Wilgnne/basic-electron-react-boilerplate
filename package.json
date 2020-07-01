@@ -11,11 +11,10 @@
   "license": "MIT",
   "main": "src/main.js",
   "scripts": {
-    "prod": "yarn build && electron --noDevServer .",
+    "prod": "yarn package && electron --noDevServer .",
     "dev": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js",
-    "build": "webpack --config webpack.build.config.js",
-    "package": "yarn build",
-    "postpackage": "electron-packager ./ --out=./builds"
+    "package": "webpack --config webpack.build.config.js",
+    "build": "node electron.build.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
